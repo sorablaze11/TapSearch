@@ -1,19 +1,30 @@
 import React, { Component } from "react";
-export class NavBar extends Component {
+import { Link } from "react-router-dom";
+
+class NavBar extends Component {
   render() {
+    const headerStyle = {
+      background: "#333",
+      color: "#fff",
+      textAlign: "center",
+      padding: "10px"
+    };
+
+    const linkStyle = {
+      color: "#fff",
+      textDecoration: "none"
+    };
     return (
-      <React.Fragment>
-        <nav className="navbar navbar-dark bg-dark mb-3">
-          <a className="navbar-brand" href="#">
-            <h1>
-              Total Items{" "}
-              <span className="badge badge-secondary">
-                {this.props.totalItems}
-              </span>
-            </h1>
-          </a>
-        </nav>
-      </React.Fragment>
+      <header style={headerStyle}>
+        <h1>TapSearch</h1>
+        <Link style={linkStyle} to="/index">
+          Index
+        </Link>{" "}
+        |{" "}
+        <Link style={linkStyle} to="/search">
+          Search
+        </Link>
+      </header>
     );
   }
 }
