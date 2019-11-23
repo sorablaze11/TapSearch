@@ -15,7 +15,7 @@ export class AllDocuments extends Component {
   };
 
   componentWillMount() {
-    axios.get("http://127.0.0.1:8000/api/getall").then(res => {
+    axios.get("https://tapsearchbackend.herokuapp.com/api/getall").then(res => {
       this.setState({
         docs: res.data["docs"]
       });

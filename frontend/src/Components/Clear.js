@@ -3,7 +3,7 @@ import axios from "axios";
 
 export class Clear extends Component {
   componentWillMount() {
-    axios.get("http://127.0.0.1:8000/api/clear");
+    axios.get("https://tapsearchbackend.herokuapp.com/api/clear");
   }
   render() {
     return <div>All the indexes and documents are cleared.</div>;
