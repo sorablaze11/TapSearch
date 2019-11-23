@@ -20,7 +20,7 @@ Heroku
 
 #### How to use:<br />
 Given the frontpage of the TapSearch website.<br/><br/>
-<img src="tapsearch1.PNG" alt="drawing" width="500" height="300" /><br/><br/>
+<img src="tapsearch1.PNG" alt="drawing" width="500" height="500" /><br/><br/>
 Enter the documents or paragraphs to be indexed and press index it.<br/><br/>
 <img src="tapsearch2.PNG" alt="drawing" width="500" height="300" /><br/><br/>
 Go to search page and search for the specific word in each document.<br><br/>
