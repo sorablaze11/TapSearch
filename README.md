@@ -32,6 +32,18 @@ Go to All Documents to get all the documents that has been indexed.<br /><br/>
 Press clear to clear all the indexed documents.<br/><br/>
 <img src="tapsearch6.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 
-#### Future Prospects<br/>
+### Future Prospects<br/>
 The given webapp can be further improve by adding phrase indexing. so that we can seach for phrases.<br />
 The search can be modified search that we can get all the paragraphs that contains the word the user has typed untill now.
+
+### Instructions to run locally as backend searver might crash.
+1. Clone the repo.<br/>
+2. Install python and nodejs ig you dont have.<br/>
+3. At the project folder. Enter the below code to install all the libraries.<br/>
+`pip install -r requirements.txt`
+3. Go to backend and enter to run the backend searver.<br />
+`python manage runserver`
+4. Go to frontend and enter the below code to install the dependencies.<br/>
+`npm i`
+5. After that type the below code to run frontend server. <br />
+`npm start`
