@@ -47,3 +47,5 @@ The search can be modified search that we can get all the paragraphs that contai
 `npm i`
 5. After that type the below code to run frontend server. <br />
 `npm start`
+6. Now go to below link to access the webapp. <br />
+`http://127.0.0.1:3000/`
