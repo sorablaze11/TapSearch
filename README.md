@@ -1,4 +1,4 @@
-# TapSearch
+# :new_moon: TapSearch
 A simple search engine for documents based on inverted-index. ReactJs for frontend and Djano Rest Framework for Rest API. <br />
 Deploying frontend on Github pages and backend on heroku.
 
