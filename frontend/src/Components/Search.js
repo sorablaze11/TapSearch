@@ -13,7 +13,6 @@ export class Search extends Component {
     };
     axios.post("http://127.0.0.1:8000/api/search", payload).then(res => {
       if (res.data["docs"].length !== 0) {
-        this.setState({ word: "" });
         this.setState({ references: res.data["docs"] });
       } else {
         this.setState({ word: "" });

@@ -142,7 +142,7 @@ def indexing_docs(request):
 @api_view(['GET', 'POST'])
 def search_word(request):
     global index, db
-    res = index.lookup_query(request.data['word'])
+    res = index.lookup_query(request.data['word'].lower())
     print(res)
     for x in res:
         x.append(db.db[x[1]]['text'])
