@@ -27,6 +27,10 @@ class NavBar extends Component {
         |{" "}
         <Link style={linkStyle} to="/">
           All Documents
+        </Link>{" "}
+        |{" "}
+        <Link style={linkStyle} to="/clear">
+          Clear
         </Link>
       </header>
     );
