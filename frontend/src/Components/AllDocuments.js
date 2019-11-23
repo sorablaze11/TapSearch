@@ -32,7 +32,11 @@ export class AllDocuments extends Component {
               <br />
               Document: {doc[1]}
               <br />
-              <form action={"/document/" + doc[0]}>
+              <form
+                action={
+                  "https://sorablaze11.github.io/TapSearch/document/" + doc[0]
+                }
+              >
                 <input type="submit" value="See the Document" />
               </form>
             </p>
