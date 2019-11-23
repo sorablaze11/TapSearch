@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6795658d7e8c142a00cdc6c85edd9b6",
+    "revision": "8f04e05214904ed673a89a6129819bba",
     "url": "/sorablaze11/TapSearch/index.html"
   },
   {
-    "revision": "c51a6dad31c4f95833cd",
+    "revision": "7eabc25cb08e7ed310cb",
     "url": "/sorablaze11/TapSearch/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sorablaze11/TapSearch/static/js/2.8560bfd1.chunk.js"
   },
   {
-    "revision": "c51a6dad31c4f95833cd",
-    "url": "/sorablaze11/TapSearch/static/js/main.94802eea.chunk.js"
+    "revision": "7eabc25cb08e7ed310cb",
+    "url": "/sorablaze11/TapSearch/static/js/main.95327d33.chunk.js"
   },
   {
     "revision": "bb7aac3877f8a23d356d",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sorablaze11/TapSearch/precache-manifest.a2ff1ea85d400dd2f7500a0f82d10dca.js"
+  "/sorablaze11/TapSearch/precache-manifest.9eb0f56f3b12bb27a98c6b5119a0fcab.js"
 );
 
 self.addEventListener('message', (event) => {
