@@ -1,11 +1,12 @@
 # TapSearch
-A simple search engine for documents based on inverted-index. ReactJs for frontend and Djano Rest Framework for Rest API.
+A simple search engine for documents based on inverted-index. ReactJs for frontend and Djano Rest Framework for Rest API. <br />
+Deploying frontend on Github pages and backend on heroku.
 
 #### USECASE:<br />
 Can be used to index documents and words in the document.<br />
 Can be used to search words present in different documents.
 
-#### APIs:<br/>
+#### REST APIs:<br/>
 index: Index the entrered set of paragraphs.<br/>
 search: Search for the given words in the documents.<br/>
 getALl: View all the documents present in the db.<br/>
