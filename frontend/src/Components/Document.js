@@ -8,16 +8,16 @@ export class Document extends Component {
   };
 
   componentWillMount() {
-    Axios.get(
-      "https://tapsearchbackend.herokuapp.com/api/document/" + this.state.id
-    ).then(res => {
-      if (res.data["text"].length === 0) {
-        alert("No such document!");
-      } else {
-        this.setState({ text: res.data["text"] });
+    Axios.get("http://127.0.0.1:8000/api/document/" + this.state.id).then(
+      res => {
+        if (res.data["text"].length === 0) {
+          alert("No such document!");
+        } else {
+          this.setState({ text: res.data["text"] });
+        }
+        console.log(res);
       }
-      console.log(res);
-    });
+    );
   }
 
   render() {

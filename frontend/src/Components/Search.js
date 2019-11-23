@@ -11,19 +11,17 @@ export class Search extends Component {
     var payload = {
       word: this.state.word
     };
-    axios
-      .post("https://tapsearchbackend.herokuapp.com/api/search", payload)
-      .then(res => {
-        if (res.data["docs"].length !== 0) {
-          this.setState({ word: "" });
-          this.setState({ references: res.data["docs"] });
-        } else {
-          this.setState({ word: "" });
-          this.setState({ references: [] });
-          alert("Error. Given word is not present in any document.");
-        }
-        console.log(this.state.references);
-      });
+    axios.post("http://127.0.0.1:8000/api/search", payload).then(res => {
+      if (res.data["docs"].length !== 0) {
+        this.setState({ word: "" });
+        this.setState({ references: res.data["docs"] });
+      } else {
+        this.setState({ word: "" });
+        this.setState({ references: [] });
+        alert("Error. Given word is not present in any document.");
+      }
+      console.log(this.state.references);
+    });
   };
 
   onChange = e => this.setState({ [e.target.name]: e.target.value });
