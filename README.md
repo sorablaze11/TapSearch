@@ -30,3 +30,7 @@ Go to All Documents to get all the documents that has been indexed.<br /><br/>
 <img src="tapsearch5.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Press clear to clear all the indexed documents.<br/><br/>
 <img src="tapsearch6.PNG" alt="drawing" width="900" height="500" /><br/><br/>
+
+#### Future Prospects<br/>
+The given webapp can be further improve by adding phrase indexing. so that we can seach for phrases.<br />
+The search can be modified search that we can get all the paragraphs that contains the word the user has typed untill now.
