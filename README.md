@@ -21,3 +21,8 @@ Heroku
 #### How to use:<br />
 Given the frontpage of the TapSearch website.
 <img src="tapsearch1.png" alt="drawing" width="500" height="300" />
+<img src="tapsearch2.png" alt="drawing" width="500" height="300" />
+<img src="tapsearch3.png" alt="drawing" width="500" height="300" />
+<img src="tapsearch4.png" alt="drawing" width="500" height="300" />
+<img src="tapsearch5.png" alt="drawing" width="500" height="300" />
+<img src="tapsearch6.png" alt="drawing" width="500" height="300" />
