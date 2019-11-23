@@ -17,28 +17,19 @@ class NavBar extends Component {
     return (
       <header style={headerStyle}>
         <h1>TapSearch</h1>
-        <Link
-          style={linkStyle}
-          to="https://sorablaze11.github.io/TapSearch/index"
-        >
+        <Link style={linkStyle} to="/index">
           Index
         </Link>{" "}
         |{" "}
-        <Link
-          style={linkStyle}
-          to="https://sorablaze11.github.io/TapSearch/search"
-        >
+        <Link style={linkStyle} to="/search">
           Search
         </Link>{" "}
         |{" "}
-        <Link style={linkStyle} to="https://sorablaze11.github.io/TapSearch">
+        <Link style={linkStyle} to="/getall">
           All Documents
         </Link>{" "}
         |{" "}
-        <Link
-          style={linkStyle}
-          to="https://sorablaze11.github.io/TapSearch/clear"
-        >
+        <Link style={linkStyle} to="/clear">
           Clear
         </Link>
       </header>

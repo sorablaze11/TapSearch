@@ -62,9 +62,10 @@ export class Search extends Component {
               <br />
               DocumentID: {reference[1]}
               <br />
-              <form action={"/document/" + reference[1]}>
+              Document Text:{reference[2]}
+              {/* <form action={"/document/" + reference[1]}>
                 <input type="submit" value="See the Document" />
-              </form>
+              </form> */}
             </p>
           </div>
         ))}

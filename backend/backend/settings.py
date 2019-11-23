@@ -25,9 +25,6 @@ SECRET_KEY = 'ddvyv^f=w9q0w#jow+x_5yw35l(pto^q6gg7l@1b&%=-u$0j27'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -56,7 +53,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-ALLOWED_HOSTS = [".herokuapp.com"]
+ALLOWED_HOSTS = [".herokuapp.com", "127.0.0.1"]
 
 ROOT_URLCONF = 'backend.urls'
 

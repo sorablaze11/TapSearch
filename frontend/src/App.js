@@ -13,30 +13,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Route
-          exact
-          path="https://sorablaze11.github.io/TapSearch/search"
-          component={Search}
-        />
-        <Route
-          exact
-          path="https://sorablaze11.github.io/TapSearch/index"
-          component={Index}
-        />
-        <Route
-          path="https://sorablaze11.github.io/TapSearch/"
-          component={AllDocuments}
-        />
-        <Route
-          exact
-          path="https://sorablaze11.github.io/TapSearch/document/:id"
-          component={Document}
-        />
-        <Route
-          exact
-          path="https://sorablaze11.github.io/TapSearch/clear"
-          component={Clear}
-        />
+        <Route exact path="/search" component={Search} />
+        <Route exact path="/index" component={Index} />
+        <Route path="/getall" component={AllDocuments} />
+        {/* <Route exact path="/document/:id" component={Document} /> */}
+        <Route exact path="/clear" component={Clear} />
       </BrowserRouter>
     </div>
   );

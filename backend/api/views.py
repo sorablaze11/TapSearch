@@ -141,8 +141,12 @@ def indexing_docs(request):
 
 @api_view(['GET', 'POST'])
 def search_word(request):
-    global index
-    return Response({"docs": index.lookup_query(request.data['word'])})
+    global index, db
+    res = index.lookup_query(request.data['word'])
+    print(res)
+    for x in res:
+        x.append(db.db[x[1]]['text'])
+    return Response({"docs": res})
 
 
 @api_view(['GET'])
@@ -157,5 +161,5 @@ def get_document(request, id):
 @api_view(['GET'])
 def get_all(request):
     global db
-    res = [[db.db[x]['id'], db.db[x]['text'][:20] + "..."] for x in db.db.keys()]
+    res = [[db.db[x]['id'], db.db[x]['text']] for x in db.db.keys()]
     return Response({"docs": res})
