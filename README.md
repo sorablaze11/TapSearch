@@ -22,11 +22,11 @@ Heroku
 Given the frontpage of the TapSearch website.<br/><br/>
 <img src="tapsearch1.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Enter the documents or paragraphs to be indexed and press index it.<br/><br/>
-<img src="tapsearch2.PNG" alt="drawing" width="500" height="300" /><br/><br/>
+<img src="tapsearch2.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Go to search page and search for the specific word in each document.<br><br/>
-<img src="tapsearch3.PNG" alt="drawing" width="500" height="300" /><br/><br/>
-<img src="tapsearch4.PNG" alt="drawing" width="500" height="300" /><br/><br/>
+<img src="tapsearch3.PNG" alt="drawing" width="900" height="500" /><br/><br/>
+<img src="tapsearch4.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Go to All Documents to get all the documents that has been indexed.<br /><br/>
-<img src="tapsearch5.PNG" alt="drawing" width="500" height="300" /><br/><br/>
+<img src="tapsearch5.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Press clear to clear all the indexed documents.<br/><br/>
-<img src="tapsearch6.PNG" alt="drawing" width="500" height="300" /><br/><br/>
+<img src="tapsearch6.PNG" alt="drawing" width="900" height="500" /><br/><br/>
