@@ -36,7 +36,7 @@ Press clear to clear all the indexed documents.<br/><br/>
 The given webapp can be further improve by adding phrase indexing. so that we can seach for phrases.<br />
 The search can be modified search that we can get all the paragraphs that contains the word the user has typed untill now.
 
-### Instructions to run locally as backend searver might crash.
+### Instructions to run locally as backend server might crash.
 1. Clone the repo.<br/>
 2. Install python and nodejs ig you dont have.<br/>
 3. At the project folder. Enter the below code to install all the libraries.<br/>
