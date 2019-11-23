@@ -8,8 +8,13 @@ export class Index extends Component {
 
   onIndex = e => {
     e.preventDefault();
-    axios.get("https://127.0.0.1:8000/api/index");
-    this.setState({ docs: "" });
+    var payload = { data: this.state.docs };
+    axios.post("http://127.0.0.1:8000/api/index", payload).then(res => {
+      if (res.data["status"] === 1) {
+        alert("Sucessfully indexed.");
+        this.setState({ docs: "" });
+      } else alert("Error. Index it again.");
+    });
   };
 
   onChange = e => this.setState({ [e.target.name]: e.target.value });
