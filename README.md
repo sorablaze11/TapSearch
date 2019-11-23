@@ -19,7 +19,7 @@ ReactJs<br />
 Heroku
 
 #### How to use:<br />
-Given the frontpage of the TapSearch website.<br/><br/>
+Given the frontpage of the TapSearch website. Clich on Index<br/><br/>
 <img src="tapsearch1.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Enter the documents or paragraphs to be indexed and press index it.<br/><br/>
 <img src="tapsearch2.PNG" alt="drawing" width="900" height="500" /><br/><br/>
