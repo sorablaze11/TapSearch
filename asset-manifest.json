@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sorablaze11/TapSearch/static/css/main.b100e6da.chunk.css",
-    "main.js": "/sorablaze11/TapSearch/static/js/main.95327d33.chunk.js",
-    "main.js.map": "/sorablaze11/TapSearch/static/js/main.95327d33.chunk.js.map",
-    "runtime-main.js": "/sorablaze11/TapSearch/static/js/runtime-main.9f9ae81a.js",
-    "runtime-main.js.map": "/sorablaze11/TapSearch/static/js/runtime-main.9f9ae81a.js.map",
-    "static/js/2.8560bfd1.chunk.js": "/sorablaze11/TapSearch/static/js/2.8560bfd1.chunk.js",
-    "static/js/2.8560bfd1.chunk.js.map": "/sorablaze11/TapSearch/static/js/2.8560bfd1.chunk.js.map",
-    "index.html": "/sorablaze11/TapSearch/index.html",
-    "precache-manifest.9eb0f56f3b12bb27a98c6b5119a0fcab.js": "/sorablaze11/TapSearch/precache-manifest.9eb0f56f3b12bb27a98c6b5119a0fcab.js",
-    "service-worker.js": "/sorablaze11/TapSearch/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/sorablaze11/TapSearch/static/css/main.b100e6da.chunk.css.map"
+    "main.css": "/sorablaze11/TapSearch/tree/master/frontend/static/css/main.b100e6da.chunk.css",
+    "main.js": "/sorablaze11/TapSearch/tree/master/frontend/static/js/main.1d1c2887.chunk.js",
+    "main.js.map": "/sorablaze11/TapSearch/tree/master/frontend/static/js/main.1d1c2887.chunk.js.map",
+    "runtime-main.js": "/sorablaze11/TapSearch/tree/master/frontend/static/js/runtime-main.792fddde.js",
+    "runtime-main.js.map": "/sorablaze11/TapSearch/tree/master/frontend/static/js/runtime-main.792fddde.js.map",
+    "static/js/2.8560bfd1.chunk.js": "/sorablaze11/TapSearch/tree/master/frontend/static/js/2.8560bfd1.chunk.js",
+    "static/js/2.8560bfd1.chunk.js.map": "/sorablaze11/TapSearch/tree/master/frontend/static/js/2.8560bfd1.chunk.js.map",
+    "index.html": "/sorablaze11/TapSearch/tree/master/frontend/index.html",
+    "precache-manifest.3dbaef66dc9f312294561a9e3d7885b5.js": "/sorablaze11/TapSearch/tree/master/frontend/precache-manifest.3dbaef66dc9f312294561a9e3d7885b5.js",
+    "service-worker.js": "/sorablaze11/TapSearch/tree/master/frontend/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/sorablaze11/TapSearch/tree/master/frontend/static/css/main.b100e6da.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f9ae81a.js",
+    "static/js/runtime-main.792fddde.js",
     "static/js/2.8560bfd1.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.95327d33.chunk.js"
+    "static/js/main.1d1c2887.chunk.js"
   ]
 }
