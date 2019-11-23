@@ -42,7 +42,7 @@ The search can be modified search that we can get all the paragraphs that contai
 3. At the project folder. Enter the below code to install all the libraries.<br/>
 `pip install -r requirements.txt`
 3. Go to backend and enter to run the backend searver.<br />
-`python manage runserver`
+`python manage.py runserver`
 4. Go to frontend and enter the below code to install the dependencies.<br/>
 `npm i`
 5. After that type the below code to run frontend server. <br />
