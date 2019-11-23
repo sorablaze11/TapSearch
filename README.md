@@ -2,6 +2,8 @@
 A simple search engine for documents based on inverted-index. ReactJs for frontend and Djano Rest Framework for Rest API. <br />
 Deploying frontend on Github pages and backend on heroku.
 
+Backend:- https://quiet-badlands-42446.herokuapp.com/api/
+
 #### USECASE:<br />
 Can be used to index documents and words in the document.<br />
 Can be used to search words present in different documents.
