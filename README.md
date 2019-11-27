@@ -40,6 +40,7 @@ The search can be modified search that we can get all the paragraphs that contai
 
 ### Instructions to run locally as backend server might crash.
 1. Clone the repo.<br/>
+`git clone https://github.com/sorablaze11/TapSearch.git`
 2. Install python and nodejs if you don't have it installed in your laptop/desktop.<br/>
 3. At the project folder. Enter the below code to install all the libraries.<br/>
 `pip install -r requirements.txt`
