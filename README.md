@@ -22,7 +22,7 @@ ReactJs<br />
 Heroku
 
 #### How to use:<br />
-Given the frontpage of the TapSearch website. Clich on Index<br/><br/>
+Given the frontpage of the TapSearch website. Click on Index<br/><br/>
 <img src="tapsearch1.PNG" alt="drawing" width="900" height="500" /><br/><br/>
 Enter the documents or paragraphs to be indexed and press index it.<br/><br/>
 <img src="tapsearch2.PNG" alt="drawing" width="900" height="500" /><br/><br/>
@@ -40,7 +40,7 @@ The search can be modified search that we can get all the paragraphs that contai
 
 ### Instructions to run locally as backend server might crash.
 1. Clone the repo.<br/>
-2. Install python and nodejs ig you dont have.<br/>
+2. Install python and nodejs if you don't have it installed in your laptop/desktop.<br/>
 3. At the project folder. Enter the below code to install all the libraries.<br/>
 `pip install -r requirements.txt`
 3. Go to backend and enter to run the backend searver.<br />
